@@ -9,7 +9,7 @@
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    background: url('mirrored\ skyscraper.webp') no-repeat center center;
+    background: url('mirrored skyscraper.webp') no-repeat center center;
     background-size: cover;
 }
 
@@ -112,6 +112,16 @@ header {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 
 /* Tombol di Bagian Bawah */
 .bottom-button {
