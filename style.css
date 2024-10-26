@@ -160,35 +160,6 @@ header {
     text-decoration: underline;
 }
 
-
-/* Kontak Form */
-.contact-form {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-}
-
-.contact-form input,
-.contact-form textarea {
-    padding: 0.8rem;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-.contact-form button {
-    padding: 0.8rem;
-    background: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background 0.3s;
-}
-
-.contact-form button:hover {
-    background: #0056b3;
-}
-
 /* Footer */
 footer {
     background: #333;
